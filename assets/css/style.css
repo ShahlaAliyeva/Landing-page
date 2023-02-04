@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.container {
+    width: 67%;
+    /* background-color: antiquewhite; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.navbar h1 {
+    font-size: 2.7rem;
+    font-weight: 900;
+}
+
+.navbar .menu-side {
+    list-style: none;
+    display: flex;
+    column-gap: 2.5rem;
+    text-transform: capitalize;
+}
+
+.navbar .menu-side li a {
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+}
+
+/* News Section*/
+
+.news-section {
+    display: flex;
+    column-gap: 1.3rem;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.news-section .main-news-side {
+    width: 62%;
+}
+
+.news-section .main-news-side .main-news-content {
+    display: flex;
+    /* column-gap: .7rem; */
+    padding: 1rem 1rem 1rem 0;
+}
+
+.news-section .main-news-side .main-news-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    width: 47%;
+}
+
+.news-section .main-news-side .main-news-content .paragraph-content {
+    width: 50%;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: .9rem;
+}
+
+.news-section .main-news-side .main-news-content .paragraph-content button {
+    margin-top: .8rem;
+    padding: .5rem .6rem;
+    cursor: pointer;
+    background-color: #005686;
+    color: #fff;
+    border: none;
+    font-size: .8rem;
+}
+
+.news-section .news-side {
+    width: 33%;
+    background-color: #005686;
+    padding: 3rem 4.5rem 2rem 2.5rem;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.news-section .news-side h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.news-section .news-side .news li {
+    margin-top: 3.7rem;
+}
+
+.news-section .news-side .news li span {
+    font-weight: 900;
+    margin-bottom: 1.1rem;
+    display: block;
+}
+
+.news-section .news-side .news li p {
+    font-weight: lighter;
+    font-size: .9rem;
+}
